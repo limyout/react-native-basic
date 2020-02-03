@@ -23,3 +23,15 @@
 
 2. Use only within the react function.
 - Exceptional call within the custom function
+<br>
+ex)
+```
+const [name, setName] = useState("");
+
+useEffect(()=>{
+
+document.title = `search search search my ${name}`;
+
+});
+```
+<br>
