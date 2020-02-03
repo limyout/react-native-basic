@@ -2,7 +2,8 @@
 ## React hooks(UseEffect) 사용하기
 <br>
 
-**useEffect** -> It is useEffect that allows the functions to be used at once when componentDidMount, componentDidUpdate, and componentWillUnmount is active.
+**useEffect**
+* It is useEffect that allows the functions to be used at once when componentDidMount, componentDidUpdate, and componentWillUnmount is active.
 <br>
 UseEffect runs after the Dom is updated or the state is changed.
 <br>
