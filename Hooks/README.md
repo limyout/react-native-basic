@@ -12,8 +12,10 @@
 <br>
 * A method of expressing structured documents through objects, written in HTML.
 * Web browsers use DOM to apply javascript and CSS to objects.
+<br>
+<br>
 
-**Hooks rule?
+**Hooks rule?**
 <br>
 
 1. It must be written at the top of the react function.
