@@ -4,6 +4,7 @@
 **useEffect** -> It is useEffect that allows the functions to be used at once when componentDidMount, componentDidUpdate, and componentWillUnmount is active.
 <br>
 UseEffect runs after the Dom is updated or the state is changed.
+<br>
 
 **Dom?** ; Document Object Model
 
