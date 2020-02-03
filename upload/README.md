@@ -12,6 +12,12 @@
 8. git push origin master
 
 
+
+
+
+
+
+
 ## react-native Pull Request
 
 
