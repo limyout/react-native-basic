@@ -28,7 +28,7 @@
 <br>
 
 
-## git fatal: remote origin already exists
+## git fatal: remote origin already exists<Upload failed>
 ```
 git remote rm origin
 ```
