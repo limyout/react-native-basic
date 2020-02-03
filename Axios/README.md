@@ -2,7 +2,7 @@
 
 
 Axios is a very popular Javascript library for HTTP communication.  
-Execute HTTP data requests asynchronously.
+Execute HTTP data requests asynchronously. -> *promise-based*
 <br>
 <br>
 
