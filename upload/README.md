@@ -10,8 +10,8 @@
 6. git remote add origin [repository 주소]
 7. git remote -v
 8. git push origin master
+<br>
 
-  
 ## react-native Pull Request
 
 
@@ -25,7 +25,7 @@
 8. git push // 내 repository로 반영
 9. New pull request 클릭
 10. Create pull request 클릭
-
+<br>
 
 ## react-native dev branch
 ```
