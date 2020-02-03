@@ -67,3 +67,5 @@ npm install axios
 ## Project result
 
 ![1](https://user-images.githubusercontent.com/58720791/73632848-5e5baf00-46a0-11ea-89be-c4140ab0c2ab.PNG)
+<br>
+![2](https://user-images.githubusercontent.com/58720791/73633767-d5924280-46a2-11ea-9dab-12ca0306535a.PNG)
