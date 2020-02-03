@@ -2,6 +2,11 @@
 ## React hooks(UseEffect) 사용하기
 <br>
 
+**rendering**
+"Rendering" refers to the constant task of converting data into html and transferring it to the renderer
+<br>
+<br>
+
 **useEffect**
 * It is useEffect that allows the functions to be used at once when componentDidMount, componentDidUpdate, and componentWillUnmount is active.
 * UseEffect runs after the Dom is updated or the state is changed.
