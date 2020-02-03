@@ -25,7 +25,7 @@ var sharedBlacklist = [
   /.*\/__tests__\/.*/
 ];
 ```
-
+<br>
 
 ## react-native Can't find variable 오류
 
@@ -42,7 +42,7 @@ ex) Can't find variable Fragment;
 ```
 import React, {Fragment} from 'react';
 ```
-
+<br>
 
 ## Unable to resolve module 'react-native-safe-area-context' from 'node_modules\react-navigation-stack\lib\module\vendor\views\Stack\StackView.js' 오류
 
@@ -50,7 +50,7 @@ import React, {Fragment} from 'react';
 ```
 yarn add react-navigation-stack@1.10.3
 ```
-
+<br>
 
 ## react-native-icon
 
