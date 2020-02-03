@@ -9,13 +9,7 @@
 5. git commit -m "[Push 메시지명]"
 6. git remote add origin [repository 주소]
 7. git remote -v
-8. git push origin master
-
-
-
-
-
-
+8. git push origin master  
 
 
 ## react-native Pull Request
