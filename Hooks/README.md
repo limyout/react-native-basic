@@ -10,5 +10,5 @@ UseEffect runs after the Dom is updated or the state is changed.
 
 **Dom?** ; Document Object Model
 <br>
-*A method of expressing structured documents through objects, written in HTML.
-*Web browsers use DOM to apply javascript and CSS to objects.
+* A method of expressing structured documents through objects, written in HTML.
+* Web browsers use DOM to apply javascript and CSS to objects.
