@@ -27,6 +27,13 @@
 10. Create pull request 클릭
 <br>
 
+
+## git fatal: remote origin already exists
+```
+git remote rm origin
+```
+<br>
+
 ## react-native dev branch
 ```
 git clone -b dev --single-branch https://github.com/Djunnni/khub.git
