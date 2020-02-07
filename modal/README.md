@@ -13,8 +13,6 @@ npm install react-native-modal
 npm install react-native-reanimated
 ```
 <br>
-<br>
-
 lottie
 ```
 lottie (2020.01.17)
@@ -23,7 +21,6 @@ npm install --save lottie-react-native
 ```
 <br>
 <br>
-
 ## Project
 
 
