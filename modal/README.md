@@ -15,6 +15,7 @@ npm install react-native-modal
 npm install react-native-reanimated
 ```
 <br>
+
 lottie
 ```
 yarn add lottie-react-native
