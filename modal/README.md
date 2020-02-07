@@ -6,7 +6,9 @@ loadingModal is a simple yet customizable jQuery loading indicator plugin
 <br>
 <br>
 
-##lottie
+## lottie
+
+asd
 
 
 ## installation
@@ -26,7 +28,6 @@ or
 ```
 npm install --save lottie-react-native
 ```
-<br>
 <br>
 
 ## Project
