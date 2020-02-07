@@ -4,7 +4,7 @@
 
 loadingModal is a simple yet customizable jQuery loading indicator plugin
 <br>
-
+<br>
 ## installation
 ```
 npm install react-native-extra-dimensions-android
