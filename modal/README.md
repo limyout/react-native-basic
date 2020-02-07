@@ -4,7 +4,9 @@ loadingModal is a simple yet customizable jQuery loading indicator plugin
 <br>
 <br>
 ## lottie
-asd
+Lottie is a high-quality animation library created by Airbnb and operated on iOS, Android and React Native in real time, rendering After Effect animation in real time.
+<br>
+[about lottie](https://airbnb.design/lottie/)
 <br>
 <br>
 ## installation
