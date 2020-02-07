@@ -1,16 +1,12 @@
 
 ## modal
-
-
 loadingModal is a simple yet customizable jQuery loading indicator plugin
 <br>
 <br>
-
 ## lottie
-
 asd
-
-
+<br>
+<br>
 ## installation
 modal
 ```
@@ -29,18 +25,14 @@ npm install --save lottie-react-native
 ```
 <br>
 <br>
-
 ## Project
-
 loadingModal is a simple yet customizable jQuery loading indicator plugin
 <br>
 <br>
-
 ## Project result
 [modal_link](https://youtu.be/yG87gocWc2g)
 <br>
 <br>
-
 ## modal loading gif 작동 오류 시
 build.gradle(app)의
 dependencies에
