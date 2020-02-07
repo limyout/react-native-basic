@@ -6,6 +6,7 @@ loadingModal is a simple yet customizable jQuery loading indicator plugin
 ## lottie
 Lottie is a high-quality animation library created by Airbnb and operated on iOS, Android and React Native in real time, rendering After Effect animation in real time.
 <br>
+<br>
 [about lottie](https://airbnb.design/lottie/)
 <br>
 <br>
@@ -29,7 +30,7 @@ npm install --save lottie-react-native
 <br>
 
 ## Project
-# modal 구현 js
+### modal 구현 js
 기능
 <br>
 <br>
@@ -40,11 +41,11 @@ npm install --save lottie-react-native
 <br>
 <br>
 ![modal2](https://user-images.githubusercontent.com/58720791/73995625-8dbe3480-499c-11ea-9342-2c5691081105.PNG)
-# Home js에서의 modal 사용
+### Home js에서의 modal 사용
 ![modal3](https://user-images.githubusercontent.com/58720791/73995627-8e56cb00-499c-11ea-8a35-689dcffd4fec.PNG)
-# app gradle dependencies 추가
+### app gradle dependencies 추가
 ![modal4](https://user-images.githubusercontent.com/58720791/73995630-8e56cb00-499c-11ea-8e17-27bc599ff637.PNG)
-# modal gif
+### modal gif
 ![modal5](https://user-images.githubusercontent.com/58720791/73995631-8eef6180-499c-11ea-8d4e-63c12fd6d39d.PNG)
 <br>
 <br>
