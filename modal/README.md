@@ -33,6 +33,7 @@ npm install --save lottie-react-native
 <br>
 ![modal1](https://user-images.githubusercontent.com/58720791/73995623-8c8d0780-499c-11ea-8b46-0eee2cabb017.PNG)
 <br>
+<br>
 스타일
 <br>
 <br>
