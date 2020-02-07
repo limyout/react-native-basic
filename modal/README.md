@@ -13,10 +13,13 @@ npm install react-native-modal
 npm install react-native-reanimated
 ```
 <br>
+
 lottie
 ```
-lottie (2020.01.17)
-yarn add lottie-react-native (yarn으로 관리 시)
+yarn add lottie-react-native
+```
+or
+```
 npm install --save lottie-react-native
 ```
 <br>
