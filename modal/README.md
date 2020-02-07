@@ -30,12 +30,14 @@ npm install --save lottie-react-native
 # modal 구현 js
 기능
 <br>
+<br>
 ![modal1](https://user-images.githubusercontent.com/58720791/73995623-8c8d0780-499c-11ea-8b46-0eee2cabb017.PNG)
 <br>
 스타일
 <br>
+<br>
 ![modal2](https://user-images.githubusercontent.com/58720791/73995625-8dbe3480-499c-11ea-9342-2c5691081105.PNG)
-# Home에서의 modal 사용
+# Home js에서의 modal 사용
 ![modal3](https://user-images.githubusercontent.com/58720791/73995627-8e56cb00-499c-11ea-8a35-689dcffd4fec.PNG)
 # app gradle dependencies 추가
 ![modal4](https://user-images.githubusercontent.com/58720791/73995630-8e56cb00-499c-11ea-8e17-27bc599ff637.PNG)
