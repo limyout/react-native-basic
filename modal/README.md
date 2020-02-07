@@ -31,6 +31,7 @@ npm install --save lottie-react-native
 기능
 <br>
 ![modal1](https://user-images.githubusercontent.com/58720791/73995623-8c8d0780-499c-11ea-8b46-0eee2cabb017.PNG)
+<br>
 스타일
 <br>
 ![modal2](https://user-images.githubusercontent.com/58720791/73995625-8dbe3480-499c-11ea-9342-2c5691081105.PNG)
