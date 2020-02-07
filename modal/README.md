@@ -6,6 +6,7 @@ loadingModal is a simple yet customizable jQuery loading indicator plugin
 <br>
 <br>
 ## installation
+modal
 ```
 npm install react-native-extra-dimensions-android
 npm install react-native-modal
@@ -14,10 +15,21 @@ npm install react-native-reanimated
 <br>
 <br>
 
-
+lottie
+```
 lottie (2020.01.17)
 yarn add lottie-react-native (yarn으로 관리 시)
 npm install --save lottie-react-native
+```
+<br>
+<br>
+
+## Project
+
+
+loadingModal is a simple yet customizable jQuery loading indicator plugin
+<br>
+<br>
 
 
 
