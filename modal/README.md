@@ -27,7 +27,11 @@ npm install --save lottie-react-native
 <br>
 
 ## Project
-loadingModal is a simple yet customizable jQuery loading indicator plugin
+![modal1](https://user-images.githubusercontent.com/58720791/73995623-8c8d0780-499c-11ea-8b46-0eee2cabb017.PNG)
+![modal2](https://user-images.githubusercontent.com/58720791/73995625-8dbe3480-499c-11ea-9342-2c5691081105.PNG)
+![modal3](https://user-images.githubusercontent.com/58720791/73995627-8e56cb00-499c-11ea-8a35-689dcffd4fec.PNG)
+![modal4](https://user-images.githubusercontent.com/58720791/73995630-8e56cb00-499c-11ea-8e17-27bc599ff637.PNG)
+![modal5](https://user-images.githubusercontent.com/58720791/73995631-8eef6180-499c-11ea-8d4e-63c12fd6d39d.PNG)
 <br>
 <br>
 
