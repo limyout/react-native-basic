@@ -51,7 +51,8 @@ npm install --save lottie-react-native
 <br>
 
 ## Project result
-[modal_link](https://youtu.be/yG87gocWc2g)
+![Android-Emulator-Pixel_2_API_28_5554-2020-02-12-17-46-43](https://user-images.githubusercontent.com/58720791/74318365-6b734f00-4dc0-11ea-8beb-79eece77baf9.gif)
+
 <br>
 <br>
 
