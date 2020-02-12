@@ -41,13 +41,17 @@ Flux design pattern -> Redux design pattern
 앱의 상태 모두를 하나의 store안에 트리 구조로 저장.<br>
 store은 전체 상태의 구조 유지를 위해 두 가지 생성
 * reducer ; 변화시킬 데이터 구조를 가지고 있음
-* middleware ; 추가로 필요한 상태 트리구조 정보 또는 기타 변화시키는 역할을 담당<br>
+* middleware ; 추가로 필요한 상태 트리구조 정보 또는 기타 변화시키는 역할을 담당
+<br>
+<br>
 ![캡처](https://user-images.githubusercontent.com/58720791/74312489-239afa80-4db5-11ea-9423-9b262d2149c5.PNG)
 <br>
 <br>
 
 action이 store을 변경
-* action은 state의 변화를 이끌어 내기위해 정의 되어있는 종류(타입)들<br>
+* action은 state의 변화를 이끌어 내기위해 정의 되어있는 종류(타입)들
+<br>
+<br>
 ![캡처2](https://user-images.githubusercontent.com/58720791/74312492-24cc2780-4db5-11ea-9f74-9567c2c0464b.PNG)
 <br>
 <br>
