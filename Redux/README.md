@@ -39,7 +39,7 @@ Flux design pattern -> Redux design pattern
 **Redux?**
 <br>
 앱의 상태 모두를 하나의 store안에 트리 구조로 저장.<br>
-![캡처](https://user-images.githubusercontent.com/58720791/74312489-239afa80-4db5-11ea-9423-9b262d2149c5.PNG)
+![캡처](https://user-images.githubusercontent.com/58720791/74312489-239afa80-4db5-11ea-9423-9b262d2149c5.PNG)<br>
 store은 전체 상태의 구조 유지를 위해 두 가지 생성.<br>
 * reducer ; 변화시킬 데이터 구조를 가지고 있음
 * middleware ; 추가로 필요한 상태 트리구조 정보 또는 기타 변화시키는 역할을 담당
