@@ -1,5 +1,5 @@
 
-## Flux/Redux
+## Flux / Redux
 <br>
 
 **Redux**
@@ -57,7 +57,10 @@ View가 변화될 데이터를 구독하고, 변화시킬 action을 dispatch 하
 container은 store의 상태값이 변화되는지 subscrib, subscript하고 있는데 redux에서는 props에 담아 넘겨줌.
 <br>
 <br>
-
+container의 화면에서는 사용하기 위해 props를 state에 map하는 과정이 진행.
+<br>
+<br>
+화면의 mainthread runloop에서 클릭 등 이벤트가 발생해서 변경 요청을 하면 container에서 action을 보냄 -> dispatch action이라 함.
 <br>
 <br>
 
