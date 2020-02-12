@@ -39,8 +39,8 @@ Flux design pattern -> Redux design pattern
 **Redux?**
 <br>
 앱의 상태 모두를 하나의 store안에 트리 구조로 저장.<br>
-store은 전체 상태의 구조 유지를 위해 두 가지 생성.<br>
 ![캡처](https://user-images.githubusercontent.com/58720791/74312489-239afa80-4db5-11ea-9423-9b262d2149c5.PNG)
+store은 전체 상태의 구조 유지를 위해 두 가지 생성.<br>
 * reducer ; 변화시킬 데이터 구조를 가지고 있음
 * middleware ; 추가로 필요한 상태 트리구조 정보 또는 기타 변화시키는 역할을 담당
 <br>
@@ -77,7 +77,7 @@ container의 화면에서는 사용하기 위해 props를 state에 map하는 과
 <br>
 <br>
 
-state를 변경하기 위해 비동기 처리를 하는 경우(네트워크 처리)를 위해 action과 reducer 사이에 middleware를 둠.(ex thunk, saga, etc...)
+state를 변경하기 위해 비동기 처리를 하는 경우(네트워크 처리)를 위해 action과 reducer 사이에 middleware를 둠.(ex thunk, saga, etc...)<br>
 ![캡처8](https://user-images.githubusercontent.com/58720791/74312505-272e8180-4db5-11ea-84bf-9830761fd8fb.PNG)
 <br>
 <br>
