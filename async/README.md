@@ -1,4 +1,4 @@
-## AsyncStorage
+## async/await
 
 
 * Using Promise
