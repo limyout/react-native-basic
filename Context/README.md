@@ -22,4 +22,5 @@ handleSetValue값 : Root -> A -> B -> E -> G<br>
 
 
 ![캡처2](https://user-images.githubusercontent.com/58720791/74316667-50531000-4dbd-11ea-870c-df32e9f9bb46.PNG)<br>
+
 더 이상 여러 컴포넌트를 거쳐 값을 전달해주는 것이 아니라 Context를 통해서 원하는 값이나 함수를 바로 쏴줄 수 있게 함.
