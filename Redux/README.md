@@ -72,7 +72,7 @@ container의 화면에서는 사용하기 위해 props를 state에 map하는 과
 <br>
 <br>
 
-화면의 mainthread runloop에서 클릭 등 이벤트가 발생해서 변경 요청을 하면 container에서 action을 보냄 -> dispatch action이라 함.<br>
+화면의 mainthread runloop에서 클릭 등 이벤트가 발생해서 변경 요청을 하면 container에서 action을 보냄<br> -> dispatch action이라 함.<br>
 ![캡처7](https://user-images.githubusercontent.com/58720791/74312503-272e8180-4db5-11ea-831f-ee463a6a7c49.PNG)
 <br>
 <br>
