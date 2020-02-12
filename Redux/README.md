@@ -41,38 +41,42 @@ Flux design pattern -> Redux design pattern
 앱의 상태 모두를 하나의 store안에 트리 구조로 저장.<br>
 store은 전체 상태의 구조 유지를 위해 두 가지 생성
 * reducer ; 변화시킬 데이터 구조를 가지고 있음
-* middleware ; 추가로 필요한 상태 트리구조 정보 또는 기타 변화시키는 역할을 담당
+* middleware ; 추가로 필요한 상태 트리구조 정보 또는 기타 변화시키는 역할을 담당<br>
 ![캡처](https://user-images.githubusercontent.com/58720791/74312489-239afa80-4db5-11ea-9423-9b262d2149c5.PNG)
 <br>
 <br>
 
 action이 store을 변경
-* action은 state의 변화를 이끌어 내기위해 정의 되어있는 종류(타입)들
+* action은 state의 변화를 이끌어 내기위해 정의 되어있는 종류(타입)들<br>
 ![캡처2](https://user-images.githubusercontent.com/58720791/74312492-24cc2780-4db5-11ea-9f74-9567c2c0464b.PNG)
 <br>
 <br>
 
-action이 어떻게 변경시켜야 하는지 reducer이 정의
+action이 어떻게 변경시켜야 하는지 reducer이 정의<br>
 ![캡처3](https://user-images.githubusercontent.com/58720791/74312494-24cc2780-4db5-11ea-81e6-ed84dd6d4881.PNG)
 <br>
 <br>
 
-View가 변화될 데이터를 구독하고, 변화시킬 action을 dispatch 하는 것을 바인딩함.
+View가 변화될 데이터를 구독하고, 변화시킬 action을 dispatch 하는 것을 바인딩함.<br>
 ![캡처4](https://user-images.githubusercontent.com/58720791/74312496-2564be00-4db5-11ea-8e2b-d98d355d8755.PNG)
 <br>
 <br>
-container은 store의 상태값이 변화되는지 subscrib, subscript하고 있는데 redux에서는 props에 담아 넘겨줌.
+
+container은 store의 상태값이 변화되는지 subscrib, subscript하고 있는데 redux에서는 props에 담아 넘겨줌.<br>
 ![캡처5](https://user-images.githubusercontent.com/58720791/74312499-25fd5480-4db5-11ea-9d84-647c3386d619.PNG)
 <br>
 <br>
-container의 화면에서는 사용하기 위해 props를 state에 map하는 과정이 진행.
+
+container의 화면에서는 사용하기 위해 props를 state에 map하는 과정이 진행.<br>
 ![캡처6](https://user-images.githubusercontent.com/58720791/74312501-2695eb00-4db5-11ea-8be9-907e1fc1542e.PNG)
 <br>
 <br>
-화면의 mainthread runloop에서 클릭 등 이벤트가 발생해서 변경 요청을 하면 container에서 action을 보냄 -> dispatch action이라 함.
+
+화면의 mainthread runloop에서 클릭 등 이벤트가 발생해서 변경 요청을 하면 container에서 action을 보냄 -> dispatch action이라 함.<br>
 ![캡처7](https://user-images.githubusercontent.com/58720791/74312503-272e8180-4db5-11ea-831f-ee463a6a7c49.PNG)
 <br>
 <br>
+
 ![캡처8](https://user-images.githubusercontent.com/58720791/74312505-272e8180-4db5-11ea-84bf-9830761fd8fb.PNG)
 <br>
 <br>
