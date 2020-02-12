@@ -77,7 +77,7 @@ container의 화면에서는 사용하기 위해 props를 state에 map하는 과
 <br>
 <br>
 
-state를 변경하기 위해 비동기 처리를 하는 경우(네트워크 처리)를 위해 action과 reducer 사이에 middleware를 둠.(ex thunk, saga, etc...)<br>
+state를 변경하기 위해 비동기 처리를 하는 경우(네트워크 처리)를 위해 action과 reducer 사이에 middleware를 둠.<br>(ex thunk, saga, etc...)<br>
 ![캡처8](https://user-images.githubusercontent.com/58720791/74312505-272e8180-4db5-11ea-84bf-9830761fd8fb.PNG)
 <br>
 <br>
