@@ -126,3 +126,5 @@ const CalculatorContainer = () => (
 
 export default CalculatorContainer;
 ```
+
+Context Provider 내부에 있는 메소드를 사용하기위해서 컨테이너 컴포넌트를 추가적으로 만들어서 props로 필요한 값을 전달하는 방식으로 구현
