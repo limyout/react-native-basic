@@ -32,7 +32,8 @@ handleSetValue값 : Root -> A -> B -> E -> G<br>
   * Provider : Context에서 사용할 값을 설정할 때 사용
   * Consumer : 나중에 우리가 설정한 값을 불러와야 할 때 사용
   
-# 1plusCaculator
+### 1plusCaculator
+
 ```
 // src/context/counter
 import React, { Component, createContext } from 'react';
@@ -72,7 +73,9 @@ class CounterProvider extends Component {
 // 내보내줍니다.
 export { CounterProvider, CounterConsumer };
 ```
+
 <br>
+
 ```
 //App.js
 import React from 'react';
@@ -89,7 +92,9 @@ const App = () => {
 
 export default App;
 ```
+
 <br>
+
 ```
 // src/components/Calculator
 import React, { Component } from 'react';
