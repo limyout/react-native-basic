@@ -29,12 +29,95 @@ handleSetValue값 : Root -> A -> B -> E -> G<br>
 ## Using Context
 
 * Context는 createContext라는 함수를 사용해서 만들고 이 함수를 호출하면 Provider과 Consumer라는 컴포넌트들이 반환됨.<br>
- * Provider : Context에서 사용할 값을 설정할 때 사용
- * Consumer : 나중에 우리가 설정한 값을 불러와야 할 때 사용
+  * Provider : Context에서 사용할 값을 설정할 때 사용
+  * Consumer : 나중에 우리가 설정한 값을 불러와야 할 때 사용
+  
+# 1plusCaculator
 ```
-import React, { createContext } from 'react';
+// src/context/counter
+import React, { Component, createContext } from 'react';
 
 const Context = createContext();
 const { Provider, Consumer: CounterConsumer } = Context;
+
+// Provider 에서 state 를 사용하기 위해서 컴포넌트를 새로 만들어줍니다.
+class CounterProvider extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      value: 0
+    };
+    // 여기서 actions 라는 객체는 우리가 임의로 설정하는 객체입니다.
+    // 나중에 변화를 일으키는 함수들을 전달해줄때, 함수 하나하나 일일히 전달하는 것이 아니라,
+    // 객체 하나로 한꺼번에 전달하기 위함입니다.
+    this.actions = {
+      plusOne: () => {
+        this.setState(prevState => ({ value: prevState.value + 1 }));
+      }
+    };
+  }
+
+  render() {
+    const { state, actions } = this;
+    // Provider 내에서 사용할 값은, "value" 라고 부릅니다.
+    // 현재 컴포넌트의 state 와 actions 객체를 넣은 객체를 만들어서,
+    // Provider 의 value 값으로 사용하겠습니다.
+    const value = { state, actions };
+
+    return <Provider value={value}>{this.props.children}</Provider>;
+  }
+}
+
+// 내보내줍니다.
+export { CounterProvider, CounterConsumer };
 ```
-* 
+<br>
+```
+//App.js
+import React from 'react';
+import { CounterProvider } from './contexts/counter';
+import Calculator from './components/Calculator';
+
+const App = () => {
+  return (
+    <CounterProvider>
+      <Calculator />
+    </CounterProvider>
+  );
+};
+
+export default App;
+```
+<br>
+```
+// src/components/Calculator
+import React, { Component } from 'react';
+import { CounterConsumer } from '../contexts/counter';
+
+class Calulator extends Component {
+  render() {
+    return (
+      <div>
+        값: {this.props.value}
+        <button onClick={this.props.plusOne}>더하기</button>
+      </div>
+    );
+  }
+}
+
+const CalculatorContainer = () => (
+  <CounterConsumer>
+    {
+      ({state, actions}) => (
+        <Calulator 
+          value={state.value}
+          plusOne={actions.plusOne}
+        />
+      )
+    }
+  </CounterConsumer>
+)
+
+export default CalculatorContainer;
+```
